@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html lang="eng">
+<head>
+    <meta charset="utf-8">
+    <title>Zombie Chase</title>
+    <link href="https://fonts.googleapis.com/css?family=Black+Ops+One|Lato" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css.css">
+    
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    
+    <script src="js.js"></script>
+    <audio src="fanfare.wav" type="audio/wav"></audio>
+</head>
+<body>
+    <div class="wrapper">
+        <div id="menu">
+            <div id="gameTitle">T A C T I C A L<br>Z O M B I E&nbsp;&nbsp;P L A N T</div>
+            <div id="instr">Arrow keys to move<br>Pots are safe, plants are dangerous<br>Stay away from the zombie</div>
+            <button id="start">Click to Survive</button>
+        </div>
+        <div id="status">
+            ENERGY:&nbsp;<ammo></ammo>
+            <br>
+            HEALTH:&nbsp;<life></life>
+            <br>
+            DNA CURE:&nbsp;<dna></dna>
+            <br>
+            <output></output>
+        </div>
+        <div id="game">
+        </div>
+    </div>    
+</body>
+</html>
